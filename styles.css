@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Triangles&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.site-header {
+    background-color: #f3e7b2;
+    color: #000000;
+    padding: 18px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    margin-left: 0;
+    padding-left: 10%;
+    font-family: 'Caveat', cursive;
+}
+
+.site-navigation {
+    margin-left: 10%;
+}
+
+.site-navigation a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.site-navigation a:nth-child(1) {
+    margin-left: 0;
+}
+
+.site-navigation a:nth-child(2) {
+    margin-left: -10%;
+}
+
+.site-navigation a:nth-child(3) {
+    margin-left: -10%;
+}
+
+.block2 {
+    height: 350px;
+    background-color: #f99baa; /* Розовий колір (світло-рожевий) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.block3 {
+    height: 350px;
+    background-color: #ededed; /* Розовий колір (світло-рожевий) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.blue {
+    color: #3a8ff0;
+}
+.centered-text{
+    font-family: 'Rubik Doodle Triangles', Courier;
+    font-size: 40px;
+    text-align: center;
+}   
+.block3 {
+    height: 350px;
+    background-color: #a3cac0; /* Розовий колір (світло-рожевий) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block3-1 {
+    width: 800px; 
+    height: 250px; 
+    background-color: #e0f4f6; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.block3-11{
+    width: 400px; 
+    height: 250px; 
+    background-color: #e0f4f6; 
+}
+.block3-11 h2 {
+    margin-bottom: 10px;
+    font-size: 24px; /* Змініть це значення на бажаний розмір заголовка */
+    text-align: left;
+}
+
+.block3-11 p {
+    font-size: 21px; /* Змініть це значення на бажаний розмір тексту */
+    text-align: left;
+}
+.block3-12{
+    width: 400px; 
+    height: 250px; 
+    background-color: #e0f4f6; 
+    position: absolute;
+    top: 0px;
+    right:-30px;
+
+
+}
+.block3-12 img{
+    background-size: cover;
+    vertical-align: top
+}
+.inner-div {
+    width: 150px;
+    height: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    margin: 70px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.text4{
+    position: absolute;
+    color: #ed2e2e;
+    font-size: 30px; 
+    right: 1189px;
+    bottom: -120px;
+}
+.inner-div img{
+    max-height: 200px;
+    max-width:150px ;
+
+}
+.inner-div h1 {
+    font-size: 18px; /* Змініть це значення на бажаний розмір тексту "Card title" */
+    text-align: left;
+}
+.inner-div h1 {
+    font-size: 18px; /* Змініть це значення на бажаний розмір тексту "Card title" */
+    text-align: left;
+}
+.inner-div p {
+    font-size: 14px; /* Змініть це значення на бажаний розмір тексту "Card title" */
+    text-align: left;
+}
+.inner-div h5 {
+position: absolute;
+text-align: left;
+bottom: -375px;
+color: #ed2e2e;
+}
+.block3 h1{
+    position: absolute;
+    color: #ed2e2e;
+    font-size: 30px; 
+    left: 426px;
+    top: -20px;
+}
+.site-footer {
+    background-color: #f3e7b2;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    margin-top: 10px;
+}
+
+.logo-container img {
+    width: 40px; /* Змініть це значення на бажаний розмір для ваших логотипів */
+    margin: 0 5px;
+}
